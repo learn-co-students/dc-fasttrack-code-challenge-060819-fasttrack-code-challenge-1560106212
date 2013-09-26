@@ -8,7 +8,7 @@ Now the list of speakers is finalized, and you can send the list of badges to th
 
 Your conference speakers are: `Edsger, Ada, Charles, Alan, Grace, Linus and Matz.` How you scored these luminaries is beyond me, but way to go!
 
-You just realized that you also need to give each speaker a room assignment. You have rooms 1-7. You'll need to print this for the speakers, so make sure to return a list of room assignments in the form of: "Hello, <speaker>! You'll be assigned to room <room>!"
+You just realized that you also need to give each speaker a room assignment. You have rooms 1-7. You'll need to print this for the speakers, so make sure to return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 
 **Write a method that assigns each speaker to a room, and make sure that each room only has one speaker. Return a list of room assignments** 
 
