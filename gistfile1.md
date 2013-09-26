@@ -1,4 +1,6 @@
-You're hosting a conference and want to print badges for the speakers. Each badge should say: "Hello, my name is <name>"Write a method that will create and return this message, given a person's name.
+You're hosting a conference and need to print badges for the speakers. Each badge should say: "Hello, my name is <name>."
+
+*Write a method that will create and return this message, given a person's name.*
 
 Now the list of speakers is finalized, and you can send the list of badges to the printer. Modify your method so it can take a list of names as an argument and return a list of badge messages. Remember that you'll need to give this list to the printer, so it should be accessible outside of the method.
 
