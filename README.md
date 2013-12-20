@@ -2,6 +2,8 @@
   languages: ruby
 ---
 
+# Badges and Schedules
+
 You're hosting a conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
 
 **Write a method that will create and return this message, given a person's name.**
