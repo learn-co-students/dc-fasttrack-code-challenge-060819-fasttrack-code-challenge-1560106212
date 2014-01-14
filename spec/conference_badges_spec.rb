@@ -59,27 +59,12 @@ TEXT
 
   end
 
-  context 'attendee list' do
-
-    describe 'local variable' do
-
-      # Question 2a: Store the list of speaker names somewhere
-
-      it 'should include a new variable that contains a list of names' do
-        expect(local_variables.size).to eq(1)
-        expect(local_variables.first).to eq(attendees)
-      end
-
-    end
-
-    describe '#batch_badge_creator' do
+  describe '#batch_badge_creator' do
 
     # Question 2b
 
-      it 'should return a list of badge messages' do
-        expect(batch_badge_creator(attendees)).to eq(badges)
-      end
-
+    it 'should return a list of badge messages' do
+      expect(batch_badge_creator(attendees)).to eq(badges)
     end
 
   end
