@@ -1,25 +1,35 @@
 ---
+  tags: arrays, iteration, methods,
   languages: ruby
 ---
 
 # Badges and Schedules
 
+### Skills: blocks, loops?
+
+## Instructions
+
+In this lab you'll be learning how to iterate through an array and output the results in different ways.
+
 You're hosting a conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
 
-**Write a method that will create and return this message, given a person's name.**
+1. Write a method that will create and return this message, given a person's name.
+ex:
 
-Now the list of speakers is finalized, and you can send the list of badges to the printer. *Remember that you'll need to give this list to the printer, so it should be accessible outside of the method.*
+    ```bash
+    print_badge("Arel")
+    => "Hello, my name is Arel"
+    ```
 
-**Modify your method so it can take a list of names as an argument and return a list of badge messages.** 
+2. The list of speakers for your conference has been finalized. Your conference speakers are: `Edsger, Ada, Charles, Alan, Grace, Linus and Matz.` How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed. 
 
-Your conference speakers are: `Edsger, Ada, Charles, Alan, Grace, Linus and Matz.` How you scored these luminaries is beyond me, but way to go!
+  a. Store the list of speaker names outside your method so you can send it to the printer. 
 
-You just realized that you also need to give each speaker a room assignment. You have rooms 1-7. You'll need to print this for the speakers, so make sure to return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
+  b. Write a badge_creator method that takes a list of names as an argument and return a list of badge messages. Hint: Use the variable you created in part a.
 
-**Write a method that assigns each speaker to a room, and make sure that each room only has one speaker. Return a list of room assignments** 
+3. You just realized that you also need to give each speaker a room assignment. Write a method called assign_rooms that takes the list of speakers that will assign each speaker to a room. Make sure that each room only has one speaker.
+  * You have rooms 1-7. 
+  * return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 
-Now you have to tell the printer what to print. Create a method that will output the results of the badge method and schedule method to the screen so the printer can do his thing.
-
-**Write a method to run the rest of your program and print the results to the screen. No other method should print to the screen.**
-
+4. Now you have to tell the printer what to print. Create a method called printer that will output the results of the badge_creator method and the assign_rooms method to the screen.
 
