@@ -22,6 +22,7 @@ ex:
     ```
 
 2. The list of speakers for your conference has been finalized. Your conference speakers are: `Edsger, Ada, Charles, Alan, Grace, Linus and Matz.` How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed. 
+  
   a. Store the list of speaker names outside your method so you can send it to the printer. 
   b. Write a badge_creator method that takes a list of names as an argument and return a list of badge messages. Hint: Use the variable you created in part a.
 
