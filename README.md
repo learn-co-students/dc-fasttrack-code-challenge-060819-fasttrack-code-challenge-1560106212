@@ -13,7 +13,7 @@ In this lab you'll be learning how to iterate through an array and output the re
 
 You're hosting a conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
 
-1. Write a method that will create and return this message, given a person's name.
+1. Write a badge_maker method that will create and return this message, given a person's name.
 ex:
 
     ```bash
@@ -25,7 +25,7 @@ ex:
   
   a. Store the list of speaker names outside your method so you can send it to the printer. 
   
-  b. Write a badge_creator method that takes a list of names as an argument and return a list of badge messages. Hint: Use the variable you created in part a.
+  b. Write a batch_badge_creator method that takes a list of names as an argument and return a list of badge messages. Hint: Use the variable you created in part a.
 
 3. You just realized that you also need to give each speaker a room assignment. Write a method called assign_rooms that takes the list of speakers that will assign each speaker to a room. Make sure that each room only has one speaker.
   * You have rooms 1-7. 
