@@ -17,7 +17,7 @@ You're hosting a conference and need to print badges for the speakers. Each badg
 ex:
 
     ```bash
-    print_badge("Arel")
+    badge_maker("Arel")
     => "Hello, my name is Arel"
     ```
 
