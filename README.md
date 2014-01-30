@@ -9,16 +9,17 @@
 
 ## Instructions
 
-In this lab you'll be learning how to iterate through an array and output the results in different ways.
+In this lab you'll be learning how to iterate through an array and output the results in different ways. Your code will go in the "conference_badges.rb" file and you can run the test suite using the `rspec` command.
 
 You're hosting a conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
 
 1. Write a badge_maker method that will create and return this message, given a person's name.
 ex:
 
-```ruby
-badge_maker("Arel") # returns "Hello, my name is Arel."
-```
+    ```bash
+    badge_maker("Arel")
+    => "Hello, my name is Arel."
+    ```
 
 2. The list of speakers for your conference has been finalized. Your conference speakers are: `Edsger, Ada, Charles, Alan, Grace, Linus and Matz.` How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed. 
   
