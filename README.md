@@ -1,6 +1,7 @@
 ---
   tags: arrays, iteration, methods
   languages: ruby
+  resources: 3
 ---
 
 # Badges and Schedules
@@ -33,3 +34,8 @@ ex:
 
 4. Now you have to tell the printer what to print. Create a method called printer that will output the results of the badge_creator method and the assign_rooms method to the screen.
 
+
+## Resources
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.2 Some Basic Ruby](http://books.flatironschool.com/books/11), page 33
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.3 Arrays and Hashes](http://books.flatironschool.com/books/11), page 36
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.7 Blocks and Iterators](http://books.flatironschool.com/books/11), page 41
