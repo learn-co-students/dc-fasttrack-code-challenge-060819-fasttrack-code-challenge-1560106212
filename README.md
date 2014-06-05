@@ -36,6 +36,6 @@ ex:
 
 
 ## Resources
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.2 Some Basic Ruby](http://books.flatironschool.com/books/11), page 33
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.3 Arrays and Hashes](http://books.flatironschool.com/books/11), page 36
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [2.7 Blocks and Iterators](http://books.flatironschool.com/books/11), page 41
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11?page=33) - [2.2 Some Basic Ruby](http://books.flatironschool.com/books/11?page=33), page 33
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11?page=36) - [2.3 Arrays and Hashes](http://books.flatironschool.com/books/11?page=36), page 36
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11?page=41) - [2.7 Blocks and Iterators](http://books.flatironschool.com/books/11?page=41), page 41
