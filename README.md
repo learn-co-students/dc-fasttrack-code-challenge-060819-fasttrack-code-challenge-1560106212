@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Use iteration!
+1. Use iteration
 2. Define methods that use iteration and control the return values of those methods
 3. Define methods that call other methods
 
