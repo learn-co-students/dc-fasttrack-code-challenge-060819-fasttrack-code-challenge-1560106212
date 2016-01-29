@@ -32,4 +32,4 @@ You just realized that you also need to give each speaker a room assignment. Wri
 Now you have to tell the printer what to print. Create a method called `printer` that will output first the results of the `batch_badge_creator` method and then of the `assign_rooms` method to the screen.
   * *Hint*: Remember that methods can call other methods. If the return value of `assign_rooms` is an array of room assignments, how can you print out each assignment? You'll need to iterate over your array of room assignments in order to `puts` out each individual assignment.
 
-<a href='https://learn.co/lessons/badges-and-schedules' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/badges-and-schedules' title='Badges and Schedules'>Badges and Schedules</a> on Learn.co and start learning to code for free.</p>
