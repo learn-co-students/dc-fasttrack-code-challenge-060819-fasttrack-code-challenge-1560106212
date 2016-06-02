@@ -23,7 +23,7 @@ The list of speakers for your conference has been finalized. Your conference spe
 
   * Write a `batch_badge_creator` method that takes an array of names as an argument and returns an array of badge messages.
 
-You just realized that you also need to give each speaker a room assignment. Write a method called `assign_rooms` that takes the list of speakers that will assign each speaker to a room. Make sure that each room only has one speaker.
+You just realized that you also need to give each speaker a room assignment. Write a method called `assign_rooms` that takes the list of speakers and assigns each speaker to a room. Make sure that each room only has one speaker.
   * You have rooms 1-7.
   * return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
   *  *Hint*: Think about how you will assign a room number to each person. Array items are indexed, meaning that you can access each element by its index number. When you are iterating through an array, you can keep track of the index number of the current iteration using an enumerator method called [`each_with_index`](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-each_with_index).
@@ -33,3 +33,5 @@ Now you have to tell the printer what to print. Create a method called `printer`
   * *Hint*: Remember that methods can call other methods. If the return value of `assign_rooms` is an array of room assignments, how can you print out each assignment? You'll need to iterate over your array of room assignments in order to `puts` out each individual assignment.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/badges-and-schedules' title='Badges and Schedules'>Badges and Schedules</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/badges-and-schedules'>Badges and Schedules Lab</a> on Learn.co and start learning to code for free.</p>
